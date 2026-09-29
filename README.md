@@ -63,7 +63,7 @@ codex mcp login socialfaktory
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/adifsgaid/socialfaktory-gemini-extension
+gemini extensions install https://github.com/socialfaktory/socialfaktory-gemini-extension
 ```
 
 ### Windsurf
