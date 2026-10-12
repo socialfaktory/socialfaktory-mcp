@@ -34,7 +34,7 @@ chat.
   shows a sent post go scheduled, then published.
 - A refusal comes back as an error envelope with a reason. Explain it; never retry blindly.
 
-## The 20 tools
+## The 21 tools
 
 Read permission, free:
 
@@ -45,6 +45,7 @@ Read permission, free:
   privacy levels the creator allows and the Pinterest boards a pin can go to.
 - `list_media`: the finished exports in a brand's media library, by folder or by name.
 - `list_formats`: the video formats a generation can be built from, and their render styles.
+- `list_actors`: the actors this account can cast, its own and the ready-made cast.
 - `get_wallet`: the credit balance of the account.
 - `quote_generation`: the price of a generation before running it.
 - `get_generation`, `list_generations`: one generation, or the list, newest first.

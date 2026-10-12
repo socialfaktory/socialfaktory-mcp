@@ -84,7 +84,7 @@ Authorization: Bearer YOUR_TOKEN
 
 Mint the token in the app under Settings > API tokens. Pick the scopes (read, generate, publish), an optional brand pin, a monthly credit cap and an expiry.
 
-## The 20 tools
+## The 21 tools
 
 | Tool | What it does |
 |---|---|
@@ -92,6 +92,7 @@ Mint the token in the app under Settings > API tokens. Pick the scopes (read, ge
 | `list_channels` | List a brand's connected social channels with the caption and media limits each one enforces. |
 | `list_media` | Browse the finished exports in a brand's media library, by folder or by name. |
 | `list_formats` | List the video formats a generation can be built from, and the render styles they can be drawn in. |
+| `list_actors` | List the actors this account can cast, its own and the ready-made cast, to pass to a quote or a generation. |
 | `get_wallet` | Read the credit balance of the account the token belongs to. |
 | `quote_generation` | Price a generation before running it. |
 | `create_generation` | Run a video generation and charge the user's credits for it. |
@@ -108,6 +109,10 @@ Mint the token in the app under Settings > API tokens. Pick the scopes (read, ge
 | `send_post` | Send one draft to the social account the user connected for its channel, at its scheduled time or straight away. |
 | `list_posts` | List posts with their scheduled time, the link they were released at, and their metrics. |
 | `delete_post` | Delete a post from the account. |
+
+## Plain HTTP
+
+Every tool is also an endpoint under `https://www.socialfaktory.com/v1`, with the same personal access token, scopes, credit cap and idempotency. The OpenAPI 3.1 document is at https://www.socialfaktory.com/openapi.json.
 
 ## What it cannot do
 
