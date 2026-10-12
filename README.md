@@ -112,7 +112,7 @@ Mint the token in the app under Settings > API tokens. Pick the scopes (read, ge
 
 ## Plain HTTP
 
-Every tool is also an endpoint under `https://www.socialfaktory.com/v1`, with the same token, scopes, credit cap and idempotency. The OpenAPI 3.1 document is at https://www.socialfaktory.com/openapi.json.
+Every tool is also an endpoint under `https://www.socialfaktory.com/v1`, with the same personal access token, scopes, credit cap and idempotency. The OpenAPI 3.1 document is at https://www.socialfaktory.com/openapi.json.
 
 ## What it cannot do
 
